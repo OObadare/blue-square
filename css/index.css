@@ -1,0 +1,18 @@
+/* @import "reset.css"; */
+
+
+@keyframes bluescoot {
+  from {left: 40px;}
+  to {left: calc(100% - 140px);}
+}
+
+#bluesquare {
+  position: absolute;
+  background-color: blue;
+  margin-top: 40px;
+  height: 100px;
+  width: 100px;
+  animation-name: bluescoot;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
