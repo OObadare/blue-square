@@ -1,7 +1,7 @@
 /* @import "reset.css"; */
 
 
-@keyframes bluescoot {
+@keyframes blue-scooter {
   from {left: 40px;}
   to {left: calc(100% - 140px);}
 }
@@ -10,9 +10,10 @@
   position: absolute;
   background-color: blue;
   margin-top: 40px;
+  left: 40px;
   height: 100px;
   width: 100px;
-  animation-name: bluescoot;
-  animation-duration: 2s;
+  animation-name: blue-scooter;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
 }
