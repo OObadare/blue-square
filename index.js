@@ -7,7 +7,7 @@ var script = () => {
     setTimeout( () => {
       rays.style.display = "block";
       rays.classList.add("rotateme");
-    }, 4000);
+    }, 6000);
   });
 };
 
