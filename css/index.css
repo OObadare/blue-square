@@ -6,6 +6,11 @@
   to {left: calc(100% - 140px);}
 }
 
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
 #bluesquare {
   position: absolute;
   background-color: blue;
@@ -19,4 +24,23 @@
   animation-name: blue-scooter;
   animation-duration: 4s;
   animation-fill-mode: forwards;
+}
+
+
+#rays {
+  display: none;
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/yellowrays.png);
+  background-size: contain;
+  top: -10px;
+  left: calc(100% - 185px);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.rotateme {
+  animation-name: rotation;
+  animation-duration: 4s;
 }
