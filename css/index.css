@@ -1,4 +1,4 @@
-/* @import "reset.css"; */
+@import "reset.css";
 
 
 @keyframes blue-scooter {
@@ -9,10 +9,13 @@
 #bluesquare {
   position: absolute;
   background-color: blue;
-  margin-top: 40px;
+  top: 40px;
   left: 40px;
   height: 100px;
   width: 100px;
+}
+
+.moveme {
   animation-name: blue-scooter;
   animation-duration: 4s;
   animation-fill-mode: forwards;
