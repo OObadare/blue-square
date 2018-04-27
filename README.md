@@ -10,7 +10,7 @@ Assuming that the API base url is http://example.com/api, and my interfaces invo
 
 - Sometimes the simple interface is best - I would likely design an interface which would simply let you query the user database. The simplest would be a list of all users, with an option on that same home page to add a user and an option on each user to delete. Deleting a user would first show a confirmation screen.
 
-- the url to show all users would be http://example.com/api/users, and the new and delete user urls would be http://example.com/api/users/new and http://example.com/api/users/{user id} respectively.
+- the url to show all users would be http://example.com/api/users, and the new and delete user urls would be http://example.com/api/users/new and http://example.com/api/users/{user_id} respectively.
 
 - The front end would give the back end parameters necessary to create, show, or delete users. For example, to create a user it would give the backend a post request with the user's name, appropriately encrypted password, etc.
 
